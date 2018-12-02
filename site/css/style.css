@@ -39,12 +39,16 @@
     margin: 5px auto 5px auto;
     font-style: none;
 }
-@media (max-width: 900px){
+@media (max-width: 1200px){
+    .header{
+        flex-direction: column;
+    }
     .my-photo{
     margin: auto auto 5px auto;
     height: 50vw;
     }
     .h1{
+        margin-top : 10px;
         text-align: center;
         font-size: 8vw;
     }
@@ -65,13 +69,7 @@
         text-align: center;
         -webkit-text-fill-color: green;
         font-size: 5vw;
-        margin: 3.5px auto 5px auto;
-    }
-    .info{
-        width: 100%
-    }
-    .header{
-        flex-direction: column;
+        margin: 3.5px auto 10px auto;
     }
 }
 /* Header style end   */
