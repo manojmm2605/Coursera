@@ -1,4 +1,5 @@
-.header{
+/* Header style start*/
+.header{   
     background-color:#FFA500;
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@
     font-size: 5vw;
     margin: auto;
 }
-.p{
+.h2{  
     text-align: center;
     -webkit-text-fill-color: green;
     font-size: 2vw;
@@ -18,13 +19,8 @@
 }
 .my-photo{
     height: 12vw;
-    padding-right: 15px;
-    margin: 5px;
-}
-.body{
-    margin: 0;
-    padding: 0;
-    background-color: #8B0000;
+    /* padding-right: 15px; */
+    margin: auto 15px auto 15px;
 }
 .info{
     margin: auto;
@@ -32,15 +28,23 @@
 .mail{
     text-align: center;
     -webkit-text-fill-color: green;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     margin: auto;
     font-style: none;
 }
-@media (max-width: 600px){
+.phone{
+    text-align: center;
+    -webkit-text-fill-color: green;
+    font-size: 1.8vw;
+    margin: 5px auto 5px auto;
+    font-style: none;
+}
+@media (max-width: 900px){
     .my-photo{
-    visibility: hidden;
+    /* visibility: hidden;
     padding: 0;
-    width: 0;
+    width: 0; */
+    display: none;
     }
     .mail{
         text-align: center;
@@ -49,13 +53,18 @@
         margin: auto;
         font-style: none;
     }
-    .p{
+    .h2 .phone{
         text-align: center;
         -webkit-text-fill-color: green;
         font-size: 3vw;
         margin: auto;
     }
-    .p1{
-        margin-top: 4px;
-    }
 }
+/* Header style end   */
+/* Body style start */
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #8B0000;
+}
+/* Body style end */
